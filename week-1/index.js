@@ -6,4 +6,4 @@ var shopper = {
       return this.myName + " " + this.myAge;
   }
 };
-console.log(shopper.myName.length);
+console.log(shopper);
