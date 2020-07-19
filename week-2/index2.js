@@ -2,8 +2,8 @@
 // Written by Kent, Clark
 
 var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"]
-    HTMLFormControlsCollection.log(enemies)
-funtion whoWins (is_there_kryptonite,enemyName)
+ 
+function whoWins(is_there_kryptonite,enemyName)
 {
 if (! is_there_kryptonite){
 
@@ -28,10 +28,10 @@ for (var i=0;i<enemies.length;i++)
 function HowAttractedIsLoisLaneToMe ()
 {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+console.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
 var superman = false;
