@@ -25,7 +25,7 @@ console.log(person);
 if (person.name.charAt(0) === "b" || person.name.charAt(0) === "B") {
   console.log(`${person.name} can go to the movies`);
 }
--
+
 if (person.age >= 18 && person.name.charAt(0) === "b"){
   console.log(`${person.name} can go to the movies`)
 } else {
