@@ -15,11 +15,6 @@ var max = Math.max(11, 12, 13)
 console.log(max)
 
 
-function isEven(n) {
-    return (n % 2) == 0;
-  }
- var n = (2)
- console.log(isEven)
- 
+
  
  

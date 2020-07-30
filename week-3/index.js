@@ -33,11 +33,42 @@ for (var i = 0; i < people.length; i++){
 
 }
 
-/*for ( x  = 0; x <101; x++){
-    if([x].number =){
-        
+for (var i = 0; i < 101; i++){
+    //console.log(i);
+    if (i%2 !== 0){
+      console.log(i + " is Odd");
+    }else{
+      console.log (i + " is Even");
     }
-}*/
+    
+  }
 
 
+  var numArray = [2,3,2];
 
+  function addUp(num){
+    console.log(num)
+    var sum = 0;
+    var len = num.length;
+    for(var i =0; i < len; i++){
+        sum = sum + num[i]
+    }
+    //console.log(sum);
+    blink(sum);
+  } 
+  
+  function blink(num){
+    //console.log('test',num)
+    for (var i = 0; i < num; i++){
+      //console.log(i);
+      if (i%2 !== 0){
+        console.log("ON");
+      }else{
+        console.log ("OFF");
+        
+      }
+    
+    }
+  }
+  
+  addUp(numArray);
