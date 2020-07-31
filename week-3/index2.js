@@ -16,5 +16,30 @@ console.log(max)
 
 
 
- 
+ function isEven(number)
+{
+  //console.log(number)
+  if (number%2 == 0) {
+    console.log(number +" is even")
+  } else { 
+    console.log(number + " is odd")
+  
+  }
+
+}
+ isEven (7)
+
+ function stringLen(takesString) {
+    console.log(takesString.length);
+    var len = takesString.length;
+    if (len <= 20){
+      console.log (takesString + takesString)
+    } else {
+      //console.log (Math.floor(takesString.length/2))
+      var round = Math.floor(takesString.length/2);
+      var res = takesString.slice(0,round);
+      console.log (res);
+    }
+  }
+  stringLen('0123456789012345678901234567890123456789012');
  
