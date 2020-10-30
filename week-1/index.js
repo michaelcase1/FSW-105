@@ -1,4 +1,4 @@
-/*var shopper = {
+var shopper = {
   myName: "michael",
   myAge: 24,
   isAlive: true,
@@ -6,5 +6,5 @@
       return this.myName + " " + this.myAge;
   }
 };
-console.log(shopper);*/
+console.log(shopper);
 
