@@ -34,7 +34,7 @@ for (var i = 0; i < people.length; i++){
 }
 
 for (var i = 0; i < 101; i++){
-    //console.log(i);
+   
     if (i%2 !== 0){
       console.log(i + " is Odd");
     }else{
@@ -53,14 +53,14 @@ for (var i = 0; i < 101; i++){
     for(var i =0; i < len; i++){
         sum = sum + num[i]
     }
-    //console.log(sum);
+   
     blink(sum);
   } 
   
   function blink(num){
-    //console.log('test',num)
+    
     for (var i = 0; i < num; i++){
-      //console.log(i);
+     
       if (i%2 !== 0){
         console.log("ON");
       }else{
