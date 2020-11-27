@@ -38,7 +38,6 @@ reversedArr = foods.reverse()
 
  console.log( Math.floor(50))
 
- **************************************************************************************
 var readlineSync = require('readline-sync');
  
 
