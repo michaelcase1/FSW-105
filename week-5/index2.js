@@ -41,8 +41,7 @@ console.log(evens, "A2")
         return     num.toString()
     })
     
-     //console.log(arry)
-    console.log(result2) 
+  
 
     //b # 3
 
@@ -52,20 +51,11 @@ console.log(evens, "A2")
       const words = str;
       return words.map(word => word[0].toUpperCase() + word.slice(1).toLowerCase())};
     
-    console.log(toCapital(str), "B3")    67'
+    console.log(toCapital(str), "B3")    
 
-    /*//C # 
+    
 
- const nums = [1, 2, 3]
-const sum = nums.reduce((total, num) => (total + num), 0);
-console.log(sum, "C1") 
 
-//C # 2
-
- const change = nums.reduce((total, nums) => total.concat(nums), "");
-console.log(change, "C2") 
-
-// Section C # 3 
 
   totalVotes = (arr) => arr.reduce((total, voter) => voter.voted ? total + 1 :(total), 0);
  
@@ -86,7 +76,7 @@ console.log(change, "C2")
     {name: "Jeff" , age: 30 , voted: true},
     {name: "Zack" , age: 19 , voted: false},
 ];
- console.log(totalVotes(voters), "C3"); */
+ console.log(totalVotes(voters), "C3"); 
 
 
 
