@@ -1,4 +1,47 @@
-var people = [
+let people = [
+  {
+    name:"mike",
+    age:18,
+    gender: "male"
+  },{
+    name:"jesse",
+    age:13,
+    gender:"female"
+  },{
+    name:"tori-lynn",
+    age:21,
+    gender:"female"
+  }
+]
+
+for (var i = 0; i < people.length; i++){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var people = [
     {
         name: "Mike",
         age: 12,
@@ -71,4 +114,4 @@ for (var i = 0; i < 101; i++){
     }
   }
   
-  addUp(numArray);
+  addUp(numArray);*/
