@@ -1,20 +1,16 @@
 let readlineSync = require('readline-sync');
 
-
-
 let escaped = false;
 let alive = true;
 let key = false;
-let optionOne = '1. Put your hand in the hole'
-let optionTwo = '2. Find the key'
-let optionThree = '3. Open the Door'
-let userQuestion = "What do you want to do?"
-
-
+let one = '1. Put your hand in the hole'
+let two = '2. Find the key'
+let three = '3. Open the Door'
+let Question = "What do you want to do?"
 
 while (!escaped && alive)
 {
-    let generalQuestions = readlineSync.question(userQuestion.concat(" ",optionOne," ", optionTwo, " ", optionThree))
+    let generalQuestions = readlineSync.question(Question.concat(" ",one," ", two, " ", three))
 
 if (generalQuestions == "1") {
     escaped = false
@@ -25,8 +21,7 @@ else if (generalQuestions == "2") {
       key = true
       console.log("you found the key")
     
-  
-  } 
+   } 
 
   else if (generalQuestions == "3") {
 
